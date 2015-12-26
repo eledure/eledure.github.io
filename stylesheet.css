@@ -402,17 +402,24 @@ nav li {
 	MOBILE VERSION
 	--------------------------------------------------------------------------------
 */
-@media (max-width: 480px) {
+@media (max-width: 900px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	.element {
+		font-size: 1.5em;
+	}
+
 	.tagline {
-		margin: auto;
 		padding: 125px 0 75px 5%;
 	}
 
 	.social {
-		display: inline-block;
-		float: left;
-		clear: both;
-		margin: auto;
 		padding: 0 0 75px 5%;
 	}
+
+	.img-social {
+		height:35px;
+		width:35px;
 }
