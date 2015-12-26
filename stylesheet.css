@@ -402,8 +402,7 @@ nav li {
 	MOBILE VERSION
 	--------------------------------------------------------------------------------
 */
-@media (max-width: 480) {
-
+@media (max-width: 480px) {
 	.tagline {
 		margin: auto;
 		padding: 125px 0 75px 5%;
