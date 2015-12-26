@@ -126,6 +126,7 @@ nav li {
 
 .element, .typed-cursor {
 	font-size: 2em;
+	font-family: "Roboto";
 	font-weight: 100;
 	letter-spacing: 1px;
 }
@@ -402,7 +403,7 @@ nav li {
 	MOBILE VERSION
 	--------------------------------------------------------------------------------
 */
-@media (max-width: 900px) {
+@media (max-width: 480px) {
 	h1 {
 		font-size: 2em;
 	}
@@ -412,14 +413,24 @@ nav li {
 	}
 
 	.tagline {
-		padding: 125px 0 75px 5%;
+		padding: 150px 0 80px 5%;
+		height: 450px;
 	}
 
 	.social {
-		padding: 0 0 75px 5%;
+		padding: 0 0 80px 5%;
 	}
 
 	.img-social {
 		height:35px;
 		width:35px;
+	}
+
+	.col-md-6 {
+		height: 600px;
+	}
+
+	#right-col-slide p {
+		font-size: 1em;
+	}
 }
