@@ -120,10 +120,8 @@ nav li {
 */
 
 .tagline {
-	position: relative;
-	height: auto;
-	margin: 250px 0% 150px 20%;
-	padding: 1%;
+	margin: auto;
+	padding: 250px 0 150px 10%;
 }
 
 .element, .typed-cursor {
@@ -159,15 +157,11 @@ nav li {
 /* SOCIAL LINKS */
 
 .social {
-	position: relative;
 	display: inline-block;
 	float: left;
 	clear: both;
-	width: auto;
-	height: auto;
-	margin-left: 20%;
-	margin-bottom: 150px;
-	padding: 1%;
+	margin: auto;
+	padding: 0 0 150px 10%;
 }
 
 .img-social {display:inline-block;height:50px;width:50px;margin-right: 20px}
@@ -410,6 +404,16 @@ nav li {
 */
 @media (max-width: 480) {
 
+	.tagline {
+		margin: auto;
+		padding: 125px 0 75px 5%;
+	}
 
-
+	.social {
+		display: inline-block;
+		float: left;
+		clear: both;
+		margin: auto;
+		padding: 0 0 75px 5%;
+	}
 }
