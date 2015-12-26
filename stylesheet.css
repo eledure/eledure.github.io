@@ -77,8 +77,6 @@ section {
 
 nav {
 	padding: 20px 0 0 0;
-	/*background-color: #FFF;
-	box-shadow: 0 1px 1px rgba(0,0,0,0.24);*/
 }
 
 nav a {
@@ -117,14 +115,12 @@ nav li {
 
 /*
 	--------------------------------------------------------------------------------
-	TAGLINE (à appeler HEADER)
+	TAGLINE (HEADER)
 	--------------------------------------------------------------------------------
 */
 
 .tagline {
 	position: relative;
-	float: left;
-	width: 800px;
 	height: auto;
 	margin: 250px 0% 150px 20%;
 	padding: 1%;
@@ -405,4 +401,15 @@ nav li {
 	background: #40d47e;
 	z-index: 2002;
 	display: none;
+}
+
+/*
+	--------------------------------------------------------------------------------
+	MOBILE VERSION
+	--------------------------------------------------------------------------------
+*/
+@media (max-width: 480) {
+
+
+
 }

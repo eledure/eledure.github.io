@@ -46,7 +46,7 @@ var main = function() {
 // TYPED //
  $(function(){
       $(".element").typed({
-        strings: ["I am a 22-year-old business student", "I am learning code + design to build great products", "I am in love with the 24 Hours of Le Mans!"],
+        strings: ["I am a 22-year-old business graduate", "I am learning code + design to build great products", "I am in love with the 24 Hours of Le Mans!"],
         typeSpeed: 10,
         startDelay: 0,
         backDelay: 500,
