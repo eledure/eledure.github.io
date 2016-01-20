@@ -3,7 +3,7 @@ var main = function() {
 // TYPED //
  $(function(){
       $(".element").typed({
-        strings: ["I am a 22-year-old business graduate", "I am learning code + design to build great products", "I am also in love with the 24 Hours of Le Mans!"],
+        strings: ["I am a 22-year-old business graduate", "I am learning code + design to build great products", "I am also in love with the 24 Hours of Le Mans! 🏁"],
         typeSpeed: 10,
         startDelay: 0,
         backDelay: 500,
@@ -25,6 +25,12 @@ var main = function() {
     });
   });
 
+  // SCROLL //
+  $('.arrow-scroll').on('click', function() {
+      var page = $(this).attr('href'); // Page cible
+      $('html, body').stop().animate({ scrollTop: $(page).offset().top }, 1000); // Go
+      return false;
+    });
 };
 
 $(document).ready(main);
