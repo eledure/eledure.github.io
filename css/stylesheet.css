@@ -353,10 +353,10 @@ section {
 }
 
 .blablacar {
-	background-image: url(ressources/blablacar-logo.png), url(ressources/blablacar-bg.png);
+	background-image: url(ressources/blablacar-app.png), url(ressources/blablacar-bg.png);
 	background-repeat: no-repeat;
-	background-size: 100px, cover;
-	background-position: center, center;
+	background-size: 260px, cover;
+	background-position: 80% 50%, center;
 	padding: 0px 0px 300px 0px;
 }
 
@@ -463,7 +463,9 @@ section {
 	}
 
 	.blablacar {
-		background-position: 50% 75%, center;
+		background-size: 220px, cover;
+		background-position: 50% 90%, center;
+		padding: 0px 0px 500px 0px;
 	}
 
 	.zenchef {
