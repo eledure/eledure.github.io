@@ -417,8 +417,12 @@ section {
 		font-size: 115%;
 	}
 
-	p, li, blockquote, .blablacar li {
+	p, blockquote, .blablacar li {
 		font-size: 110%;
+	}
+
+	li {
+		font-size: 100%;
 	}
 
 
