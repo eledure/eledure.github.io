@@ -96,7 +96,7 @@ h4 {
 	line-height: 160%;
 }
 
-p, blockquote, .blablacar li {
+p, li, blockquote, .blablacar li {
 	font-family: "Proxima Nova Regular", "Helvetica Neue", sans-serif;
 	font-size: 115%;
 	line-height: 150%;
@@ -185,7 +185,6 @@ section {
 .name {
 	display: inline-block;
 	padding: 10px;
-	font-size: 100%;
 }
 
 .social {
@@ -418,7 +417,7 @@ section {
 		font-size: 115%;
 	}
 
-	p, blockquote, .blablacar li {
+	p, li, blockquote, .blablacar li {
 		font-size: 110%;
 	}
 
