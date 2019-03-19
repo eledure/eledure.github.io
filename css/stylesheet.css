@@ -257,6 +257,11 @@ section {
 	padding: 3em 2em;
 }
 
+.logo-small {
+	width: 100%;
+	padding: 4em 3em;
+}
+
 .testimonial-container {
 	display: inline-block;
 	border-radius: 0.5em;
