@@ -333,6 +333,11 @@ section {
 	background-size: cover;
 }
 
+.retention {
+	background: url(ressources/jean-jullien-liberty.jpg) center;
+	background-size: cover;
+}
+
 .content-txt {
 	padding: 15px 15px 5px 15px;
 }
