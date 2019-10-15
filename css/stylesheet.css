@@ -12,45 +12,10 @@
 	 --main-button-color: #FF7A8A;
 }
 
-@font-face {
-	font-family: GT Super Display Super;
-	src: url(ressources/GT-Super/GT-Super-Display-Super.otf);
-}
-
-@font-face {
-	font-family: GT Super Display Bold;
-	src: url(ressources/GT-Super/GT-Super-Display-Bold.otf);
-}
-
-@font-face {
-    font-family: Proxima Nova Bold;
-    src: url(ressources/proximanova/ProximaNova-Bold.otf);
-}
-
-@font-face {
-    font-family: Proxima Nova Semi Bold;
-    src: url(ressources/proximanova/ProximaNova-Semibold.otf);
-}
-   
-@font-face {
-    font-family: Proxima Nova Regular;
-    src: url(ressources/proximanova/ProximaNova-Regular.otf);
-}
-
-@font-face {
-    font-family: Proxima Nova Italic;
-    src: url(ressources/proximanova/ProximaNova-RegularItalic.otf);
-}
-
-@font-face {
-    font-family: Proxima Nova Light;
-    src: url(ressources/proximanova/ProximaNova-Light.otf);
-}
-
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Proxima Nova Regular", "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
 	font-size: 1em;
 	color: var(--main-txt-color);
 }
@@ -72,32 +37,33 @@
 
 h1 {
 	font-size: 250%;
-	font-family: "GT Super Display Super", "Helvetica Neue", sans-serif;
+	font-family: "Archivo Black", "Helvetica Neue", sans-serif;
 	font-weight: bold;
 	line-height: 130%;
 }
 
 h2 {
 	font-size: 200%;
-	font-family: "GT Super Display Bold", "Helvetica Neue", sans-serif;
+	font-family: "Archivo Black", "Helvetica Neue", sans-serif;
 	font-weight: bold;
 	line-height: 130%;
 }
 
 h3 {
-	font-family: "Proxima Nova Regular", "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
 	font-size: 150%;
+	font-weight: 300;
 	line-height: 180%;
 }
 
 h4 {
-	font-family: "Proxima Nova Regular", "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
 	font-size: 125%;
 	line-height: 160%;
 }
 
 p, li, blockquote, .blablacar li {
-	font-family: "Proxima Nova Regular", "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
 	font-size: 115%;
 	line-height: 150%;
 }
@@ -112,7 +78,8 @@ li {
 }
 
 .italic {
-	font-family: "Proxima Nova Italic", "Helvetica Neue Italic", sans-serif;
+	font-family: "Lato", "Helvetica Neue Italic", sans-serif;
+	font-style: italic;
 }
 
 .center {
@@ -135,7 +102,8 @@ button {
   	background-color: var(--main-button-color);
 	box-shadow: 0px 2px 5px #C0D0DC;
   	border-radius: 0.25em;
-	font-family: "Proxima Nova Bold", "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
+	font-weight: 700;
 	font-size: 150%;
 	color: white;
 	outline: none;
@@ -359,7 +327,7 @@ section {
 }
 
 .work h2 {
-	padding: 40px 0px;
+	padding: 20px 0px;
 }
 
 .blablacar {
@@ -384,7 +352,8 @@ section {
 }
 
 .figure h3 {
-	font-family: "Proxima Nova Bold", "Helvetica Neue", sans-serif;
+	font-family: "Lato", "Helvetica Neue", sans-serif;
+	font-weight: 700;
 	padding: 5px 0px;
 }
 
@@ -489,7 +458,8 @@ section {
 	}
 
 	.figure h3 {
-		font-family: "Proxima Nova Bold", "Helvetica Neue", sans-serif;
+		font-family: "Lato", "Helvetica Neue", sans-serif;
+		font-weight: 700;
 	}
 
 	.kea {
