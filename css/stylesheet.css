@@ -6,9 +6,9 @@
 
 :root {
 	 --main-txt-color: #394A59;
-	 --main-txt-light-color: #A9B5BE;
+	 --main-txt-light-color: #607080;
 	 --main-bg-color: #FAFAFA;
-	 --main-bg-light-color: #F4F4F4;
+	 --main-bg-light-color: #F1F4F4;
 	 --main-button-color: #FF7A8A;
 }
 
@@ -38,14 +38,12 @@
 h1 {
 	font-size: 250%;
 	font-family: "Archivo Black", "Helvetica Neue", sans-serif;
-	font-weight: bold;
 	line-height: 130%;
 }
 
 h2 {
 	font-size: 200%;
 	font-family: "Archivo Black", "Helvetica Neue", sans-serif;
-	font-weight: bold;
 	line-height: 130%;
 }
 
@@ -181,7 +179,7 @@ section {
 }
 
 .available h3 {
-	padding: 0 1.2em 0.4em 1em;
+	padding: 0 1em 0.5em 0.8em;
 	line-height: 0%;
 }
 
@@ -192,6 +190,14 @@ section {
 .biiig {
 	max-width: 150px;
 	padding: 100px 0px;
+}
+
+.tagline {
+	margin: 0;
+}
+
+.tags {
+	margin: 1em 0 0 0;
 }
 
 
